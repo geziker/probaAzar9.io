@@ -1,0 +1,183 @@
+#bideoa {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.burukoa {
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    padding: 30px;
+}
+
+#tituloa {
+    font-size: 9vw;
+    color:rgb(255, 123, 0);
+}
+
+#tituloa1 {
+    font-size: 8vw;
+    color:white;
+}
+
+#azpitituloa {
+    font-size: 3vw;
+    color:white
+}
+/*Hemendik bera menua*/
+
+#buttons {
+    float:right;
+    position:relative;
+    left:-50%;
+    text-align:left;
+}
+
+#buttons ul {
+    list-style:none;
+    position:relative;
+    left:50%;
+}
+
+#buttons li {
+    float:left;position:relative;
+}
+
+#buttons a {
+    text-decoration:none;
+	font-family: 'Merriweather', serif;
+    margin:30px;
+    background:rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    float:left;
+    color:#fff;
+    padding:40px 30px;
+    text-align:center;
+    white-space:nowrap;
+}
+
+#buttons a:hover { 
+    color:white;
+    background:black;
+}
+
+#content {
+    overflow:hidden
+}
+
+#menuak {
+    background-color:rgba(0, 0, 0, 0.5);
+    position: relative;
+    margin:auto;
+}
+
+#irudia {
+        background-image: url(./Segurako\ kale\ dizdiratsuak.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: 100%;
+        margin: -8
+}
+
+/* Atzera joateko botoia */
+#atzera {
+    background-color: rgba(255, 255, 255, 0.5);
+    background-attachment: fixed;
+    max-width: fit-content;
+    padding: 8px;
+    margin: 8px;
+    margin-left: 20px;
+    border-radius: 10px;
+    position: fixed;
+    top: 10px;
+}
+
+#arrow {
+    max-width: 7vw;
+}
+
+/* mapa*/
+.mapouter {
+    position:relative;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none;
+    height:50vw;
+    width:100%;    
+}
+
+#textua {
+    background-color:rgba(0, 0, 0, 0.2);
+    font-size: 1.3vw ;
+    max-width: fit-content;
+    position:relative;
+    font-family: 'Merriweather', serif;
+    border-radius: 10px;
+    top: 5vw;
+    margin: 1vw;
+    margin-left: 11vw;
+    margin-bottom:8vw ;
+    padding: 3vw;
+    line-height: 150%;
+}
+
+table {
+    margin: 2vw;
+    border: solid black;
+    border-radius: 5px;
+    min-width: none;
+    font-size: 1.5vw;
+    border-width: 2px;
+    margin-left: 10vw;
+}
+
+table td {
+    padding: 1vw;
+}
+
+.lista {
+    margin-left: 10vw;
+}
+
+#irudie {
+    float: right;
+    width: 40vw;
+    padding: 3vw;
+    position: relative;
+    top: -25vw;
+}
+
+#irudie_zerikusi {
+    width: 45%;
+    
+}
+
+#linka {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: rgba(0, 0, 0, 0.3);
+    font-size: 1.5vw ;
+    font-family: 'Merriweather', serif;
+    text-align: center;
+    height: 10vw;
+    margin-left: -8;
+    margin-right: -8;
+    margin-bottom: -8;
+    line-height: 10vw;
+}
+
+#ardixarra {
+    max-width: 60vw;
+}
+
